@@ -50,14 +50,14 @@ class Sqr {
 
 public class tapis {
 	
-	/*show déroule le tapis en appliquant la méthode draw de chaque caree du tableau*/
+	/*show deroule le tapis en appliquant la methode draw de chaque caree du tableau*/
 	public static void show(Sqr [] sat){
 		for(Sqr C : sat){
 			C.SqrDraw();
 		}
 	}
 	
-	/*Construit et affiche le tapis en prenant un carré de base et nbr de répétitions,*/
+	/*Construit et affiche le tapis en prenant un carre de base et nbr de repetitions,*/
 	public static void tap(Sqr [] grid, int nb){
 		if(nb == 0){
 			/*fin*/
@@ -86,7 +86,7 @@ public class tapis {
 		
 		tap(base, 4);
 		
-		/*On transmet cette base avec un niveau de répétition*/
+		/*On transmet cette base avec un niveau de repetition*/
 		
 	
 		
