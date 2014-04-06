@@ -1,4 +1,3 @@
-
 class Sqr {
 	
 	final double x;
@@ -24,7 +23,9 @@ class Sqr {
 	
 	public Sqr [] satellize(){
 		Sqr [] sat = new Sqr [8];
+		/*les nouveaux caree sont trois fois plus petits*/
 		double newR = r / 3;
+		/*L'espace de décalage est aussi gran qu'un caree*/
 		double emptySpace = 2 * r;
 		double ChildX =  x - emptySpace;
 		double ChildY =  y - emptySpace;
